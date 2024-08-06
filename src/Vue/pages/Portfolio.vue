@@ -32,10 +32,10 @@
           class="col-sm-12 col-md-4 flex-col"
         >
           <div class="portfolio-item">
-            <!-- <img :src="require(`../../assets/images/portfolio/${item.image}`)" /> -->
+            <!-- <img :src="require(../../assets/images/portfolio/${item.image})" /> -->
             <div class="">
-              <a :href="item.link" title="Live Demo" target="_blank">
-                <div class="portfolio-item-content py-5 bg-white">
+              <a :href="item.link" title="Live Demo" target="_blank" >
+                <div class="portfolio-item-content py-5 bg-white" style="height:400px;">
                   <h3>{{ item.title }}</h3>
                   <p class="px-2">{{ item.description }}</p>
                   <div v-if="item.source !== '' " class="link-icons">
