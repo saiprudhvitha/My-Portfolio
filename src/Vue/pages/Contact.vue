@@ -134,6 +134,7 @@
 
 <script>
 import data from "../../data/data.json";
+// import resume from "../../portfolio/resume.pdf";
 
 export default {
   name: "Contact",
@@ -144,6 +145,7 @@ export default {
       contact: data.contact,
       social: data.contact.social,
       heading: data.main.headings.contact,
+      // resume: resume
     };
   },
 };

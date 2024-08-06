@@ -32,16 +32,16 @@
           class="col-sm-12 col-md-4 flex-col"
         >
           <div class="portfolio-item">
-            <img :src="require(`../../assets/images/portfolio/${item.image}`)" />
-            <div class="overlay">
+            <!-- <img :src="require(`../../assets/images/portfolio/${item.image}`)" /> -->
+            <div class="">
               <a :href="item.link" title="Live Demo" target="_blank">
-                <div class="portfolio-item-content">
+                <div class="portfolio-item-content py-5 bg-white">
                   <h3>{{ item.title }}</h3>
-                  <p>{{ item.description }}</p>
+                  <p class="px-2">{{ item.description }}</p>
                   <div v-if="item.source !== '' " class="link-icons">
-                    <a :href="item.source" title="Source Code" target="_blank">
+                    <!-- <a :href="item.source" title="Source Code" target="_blank">
                       <i class="fas fa-code fa-2x"></i>
-                    </a>
+                    </a> -->
                   </div>
                 </div>
               </a>

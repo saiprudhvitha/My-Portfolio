@@ -39,7 +39,7 @@
         {{ text.footer.copyrightText }}
       </p>
     </div>
-    <div class="credit">
+    <!-- <div class="credit">
       <p>
         Designed with 👽 by
         <a
@@ -49,7 +49,7 @@
           >darnocer</a
         >
       </p>
-    </div>
+    </div> -->
   </footer>
 </template>
 

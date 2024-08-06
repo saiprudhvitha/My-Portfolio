@@ -1,14 +1,20 @@
 {
   "main": {
     "name": {
-        "first": "Bob",
-        "last": "Ross"
+        "first": "Katam Reddy",
+        "last": "Sai Prudhvitha"
     },
-    "logo": true,
+    "logo": false,
     "titles": [
-        "Famous Painter.",
-        "Television Host.",
-        "America's Sweetheart."
+        "Python",
+        "Pandas",
+        "IOT",
+        "Scala",
+        "Frontend Development",
+        "Unix",
+        "MATLAB",
+        "LaTex",
+        "PySpark"
     ],
     "headings": {
       "about": "About",
@@ -18,17 +24,16 @@
     }
   },
     "about": {
-      "bio": "I discovered oil painting while I was enlisted in the U.S. Air Force in Alaska in the early 1960s. I studied the 'wet-on-wet' technique, also known as 'Alla Prima', used by other great painters such as Rembrandt & Monet. This allowed me to produce complete paintings in less than an hour. I then became an art instructor, creating my iconic image and eventually teaching a TV audience of millions on the TV show The Joy of Painting.",
-      "tagline": "We don't make mistakes, just happy little accidents",
+      "bio": " Concentrix Catalyst (lately called as PK Global) is one of the experienced design and engineering team of Concentrix, a leading global solutions company that reimagines everything CX through strategy, talent, and technology. We combine human-centered design, powerful data, and strong tech to accelerate CX transformation at scale",
       "facts": [
-        {"name": "Hometown",
-        "value": "Orlando, FL"
+        {"name": "Masters in Data Science & Analytics",
+        "value": "GRAND VALLEY STATE UNIVERSITY, Michigan"
         },
-        {"name": "Painting Technique",
-        "value": "Alla Prima"
+        {"name": "Bachelors in Mechanical Smart Manufacturing",
+        "value": "IIITDM KANCHEEPURAM, Chennai, India"
         },
-        {"name": "# of Paintings",
-        "value": "1,143"
+        {"name": "High School",
+        "value": "SRI CHAITANYA IIT ACADEMY, Vijayawada, India"
         },
         {"name": "Sun Sign",
           "value": "Scorpio"
@@ -36,34 +41,109 @@
       ]
     },
     "skills": {
-    "defaultCategory": "Painting",
+    "defaultCategory": "Technical Skills",
     
     "categories": [
       {
-        "category": "Painting",
-        "subtitle": "My true passion!",
+        "category": "Technical Skills",
+        "subtitle": "",
         "faClass": "fas fa-paint-brush",        
         "skillList":[
           {
-            "name": "Oil Painting",
+            "name": "Python",
             "level": "100"
           },
           {
-            "name": "Watercolor",
+            "name": "Pandas",
             "level": "90"
           },
           
           {
-            "name": "Acrylic",
+            "name": "PySpark",
+            "level": "70"
+          },
+          
+          {
+            "name": "IoT",
+            "level": "70"
+          },
+          
+          {
+            "name": "SQL",
+            "level": "70"
+          },
+          
+          {
+            "name": "Scala",
+            "level": "70"
+          },
+          
+          {
+            "name": "Unix",
+            "level": "70"
+          },
+          
+          {
+            "name": "MATLAB",
+            "level": "70"
+          },
+          
+          {
+            "name": "LaTex",
             "level": "70"
           },
           {
-            "name": "Pastels",
+            "name": "IOT",
             "level": "60"
           }
         ]
       },
 
+      {
+        "category": "Software Skills",
+        "subtitle": "",
+        "faClass": "fas fa-chalkboard-teacher",        
+        "skillList":[
+          {
+            "name": "SDLE",
+            "level": "90"
+          },
+          
+          {
+            "name": "EXCEL",
+            "level": "100"
+          },
+          {
+            "name": "WORD",
+            "level": "90"
+          },
+          {
+            "name": "OutLook",
+            "level": "90"
+          }
+        ]
+      },
+
+      {
+        "category": "Cloud",
+        "subtitle": "",
+        "faClass": "fas fa-chalkboard-teacher",        
+        "skillList":[
+          {
+            "name": "AWS",
+            "level": "90"
+          },
+          
+          {
+            "name": "Azure",
+            "level": "100"
+          },
+          {
+            "name": "DataBricks",
+            "level": "90"
+          }
+        ]
+      },
       {
         "category": "Teaching",
         "subtitle": "",
@@ -87,90 +167,41 @@
     ]
   },
 "portfolio": {
-  "defaultFilter": "mountains",
+  "defaultFilter": "projects",
   "projects": [
     {
-      "title": "Peaceful Valley",
-      "description": "S1E8",
+      "title": "Enbo[X], IIITDM Kancheepuram, Chennai, India",
+      "description": "EnBo[X] – Energy box of variable X is a smart product that senses energies like temperature voltage, humidity etc and performs accordingly. EnBo[X] has a long development and deployment history where it went through different stages and reached its destination of developing software to manage the data collected using sensors and Rpi, and to deploy and analyze data by creating dashboards.",
       "image": "peacefulvalley.png",
-      "link": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "source": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "filter": "mountains"
+      "link": "",
+      "source": "",
+      "filter": "projects"
         },
     {
-      "title": "Meadow Lake",
-      "description": "S2E1",
+      "title": "Smart Parking System, IIITDM, Chennai, India",
+      "description": ": Smart Parking System is an idea of the college student clubs to manage parking inside the college premises",
       "image": "meadowlake.png",
-      "link": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "source": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "filter": "mountains"
+      "link": "",
+      "source": "",
+      "filter": "projects"
     },
     {
-      "title": "Final Grace",
-      "description": "S2E13",
+      "title": "Alak Infotech",
+      "description": "Alak Infotech is a startup software service provider company. It works on a unique software called Trackblend which is self-developed and deployed by the startup itself. It works mostly on data analyzing and creates dashboards as per the client requirement",
       "image": "finalgrace.png",
-      "link": "https://www.twoinchbrush.com/painting/final-grace",
-      "source": "https://www.twoinchbrush.com/painting/final-grace",
-      "filter": "mountains"
-    },
-    {
-      "title": "Purple Splendor",
-      "description": "S4E1",
-      "image": "purplesplendor.png",
-      "link": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "source": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "filter": "snow"
-    },
-    {
-      "title": "Winter Stillness",
-      "description": "S5E4",
-      "image": "winterstillness.png",
-      "link": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "source": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "filter": "snow"
-    },
-    {
-      "title": "Grey Winter",
-      "description": "S7E11",
-      "image": "greywinter.png",
-      "link": "https://www.twoinchbrush.com/painting/grey-winter",
-      "source": "https://www.twoinchbrush.com/painting/grey-winter",
-      "filter": "snow"
-    },
-    {
-      "title": "Bubbling Stream",
-      "description": "S3E3",
-      "image": "bubblingstream.png",
-      "link": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "source": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "filter": "water"
-    },
-    {
-      "title": "Blaze of Color",
-      "description": "S6E13",
-      "image": "blazeofcolor.png",
-      "link": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "source": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "filter": "water"
-    },
-    {
-      "title": "Night Light",
-      "description": "S3E8",
-      "image": "nightlight.png",
-      "link": "https://www.twoinchbrush.com/painting/night-light",
-      "source": "https://www.twoinchbrush.com/painting/night-light",
-      "filter": "water"
+      "link": "",
+      "source": "",
+      "filter": "projects"
     }
-
   ]
 },
     "contact":{
-      "text": "It will be pretty hard to reach me, probably.",
+      "text": "Feel free to reach me",
       "formTitle": "Send Me A Message",
       "formEndPoint": "",
-      "city": "Orlando, Florida",
-      "email": "info@bobross.com",
-      "phone": "1-800-BOB-ROSS",
+      "city": "141-2B Manzana CT, NW Walker 49534",
+      "email": "katamres@gmail.gvsu.edu",
+      "phone": " +1 (616) 264-2665",
       "resumeLink": "https://www.twoinchbrush.com/all-paintings",
       "form": true,
       
